@@ -31,7 +31,7 @@
     position: relative;
 }
 .line1{
-        height: 60px;
+        height: 30px;
 
 
 }
@@ -70,7 +70,7 @@ li:hover{
     text-decoration:none;
 }
 #main{
-
+    width: 100%;
     padding: 0;
     border: 0;
     font-weight: inherit;
@@ -91,7 +91,7 @@ li:hover{
     min-width: 152px;
 }
 input[type=submit] {
-  background-color: #4d90fe;
+  /*background-color: #4d90fe;
   background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
   color: white;
   padding: 12px 20px;
@@ -100,9 +100,82 @@ input[type=submit] {
   cursor: pointer;
   float: right;
 
-  margin-left: 20px;
+  margin-left: 20px;*/
+   background-color: #4d90fe;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 3px 10px;
+    cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+    background-color: #4d90fe;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+label{
+
+    padding-left: 50px;
+    /*padding: 10px;*/
+    width: 150px;
+    margin-top: 5px;
+    float: left;
+    /*text-align: right;*/
+    margin-top: 12px;
+    clear: left;
+}
+hr {
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    margin-bottom: 60px;
+}
+input[type=text]{
+    margin-top: 12px;
+    width: 40%;
+    border: 1px solid #6c66af;
+    border-radius: 3px;
+    height: 20px;
+}
+
+#thesubmit{
+    margin-right: 590px;
+    padding: 15px;
+    text-align: right;
+}
+#range{
+    margin-top: 12px;
+    width: 10%;
 }
